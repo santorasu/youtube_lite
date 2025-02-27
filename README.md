@@ -1,16 +1,56 @@
-# projects
+# YouTube Lite - Flutter InAppWebView
 
-A new Flutter project.
+A simple Flutter web-view application that allows users to browse YouTube with a minimal interface using `flutter_inappwebview`.
 
-## Getting Started
+## 🚀 Features
+- Embedded YouTube web browsing
+- Supports back navigation
+- Shows page load progress
+- Landscape & portrait mode support
 
-This project is a starting point for a Flutter application.
+## 📷 Preview
+(Attach a screenshot or GIF here)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Installation
+### Prerequisites
+- Flutter SDK installed
+- Dart installed
+- Android/iOS emulator or physical device
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Steps
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/youtube-lite.git
+   cd youtube-lite
+   ```
+2. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+3. Run the app:
+   ```sh
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📄 Required Permissions
+Ensure the following permissions are added in `AndroidManifest.xml`:
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<android:usesCleartextTraffic="true"/>
+```
+
+## 📝 Dependencies Used
+- [flutter_inappwebview](https://pub.dev/packages/flutter_inappwebview)
+- [url_launcher](https://pub.dev/packages/url_launcher)
+
+## 📌 Notes
+- YouTube may restrict video playback in WebView.
+- If nothing appears, try using `https://m.youtube.com` instead of `https://www.youtube.com`.
+
+## 🤝 Contributing
+Pull requests are welcome! Feel free to open an issue or submit improvements.
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
+
