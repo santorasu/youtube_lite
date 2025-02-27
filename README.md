@@ -8,8 +8,6 @@ A simple Flutter web-view application that allows users to browse YouTube with a
 - Shows page load progress
 - Landscape & portrait mode support
 
-## 📷 Preview
-(Attach a screenshot or GIF here)
 
 ## 🛠 Installation
 ### Prerequisites
@@ -20,7 +18,7 @@ A simple Flutter web-view application that allows users to browse YouTube with a
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/youtube-lite.git
+   git clone https://github.com/santorasu/youtube_lite.git
    cd youtube-lite
    ```
 2. Install dependencies:
@@ -50,7 +48,3 @@ Ensure the following permissions are added in `AndroidManifest.xml`:
 
 ## 🤝 Contributing
 Pull requests are welcome! Feel free to open an issue or submit improvements.
-
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
-
