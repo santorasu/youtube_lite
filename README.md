@@ -47,4 +47,4 @@ Ensure the following permissions are added in `AndroidManifest.xml`:
 - If nothing appears, try using `https://m.youtube.com` instead of `https://www.youtube.com`.
 
 ## 🤝 Contributing
-Pull requests are welcome! Feel free to open an issue or submit improvements.
+Pull requests are welcome! Feel free to open an issue or submit improvements..
