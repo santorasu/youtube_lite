@@ -46,5 +46,3 @@ Ensure the following permissions are added in `AndroidManifest.xml`:
 - YouTube may restrict video playback in WebView.
 - If nothing appears, try using `https://m.youtube.com` instead of `https://www.youtube.com`.
 
-## 🤝 Contributing
-Pull requests are welcome! Feel free to open an issue or submit improvements..
